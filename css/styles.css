@@ -1,15 +1,15 @@
 table{
-  width: 50%;
+  width: 500px;
   height: 500px;
   border-radius: 15px;
   border: 3px solid #FF7F50;
 }
-/*.hidden{
+.hidden{
   display: none;
-}*/
+}
 *{
   /*text-align: center;*/
-  margin-left: 150px;
+  /*margin-left: 50px;*/
 }
 td, th{
   border-radius: 15px;
@@ -21,5 +21,8 @@ td, th{
 #operation{
   color: #FF0000;
   font-weight: 700;
+}
+.alignment{
+  margin-left: 30%;
 }
 
