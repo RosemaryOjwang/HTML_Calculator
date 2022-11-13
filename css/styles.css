@@ -1,0 +1,25 @@
+table{
+  width: 50%;
+  height: 500px;
+  border-radius: 15px;
+  border: 3px solid #FF7F50;
+}
+/*.hidden{
+  display: none;
+}*/
+*{
+  /*text-align: center;*/
+  margin-left: 150px;
+}
+td, th{
+  border-radius: 15px;
+  text-align: center;
+  width: 25px;
+  background-color: #016064;
+  color: #FF7F50; 
+}
+#operation{
+  color: #FF0000;
+  font-weight: 700;
+}
+
