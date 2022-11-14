@@ -12,9 +12,11 @@ function getUserInput() {
   }
   return inputValue;
 }
+
 //switch statement to perform mathematical operation based on operator clicked
 let mathematicalOperator;
 let output;
+let ourResult = document.getElementById("display")
 switch (mathematicalOperator) {
   case "+":
     output = inputValue1 + inputValue2;
@@ -29,6 +31,6 @@ case "/":
   output = inputValue1 / inputValue2;
   break;
 default:
-  alert("You chose an invalid operator");
+  document.getElementById("display").innerText = "Error";
 }
  
