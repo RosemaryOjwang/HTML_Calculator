@@ -7,10 +7,6 @@ table{
 .hidden{
   display: none;
 }
-*{
-  /*text-align: center;*/
-  /*margin-left: 50px;*/
-}
 td, th{
   border-radius: 15px;
   text-align: center;
@@ -24,5 +20,24 @@ td, th{
 }
 .alignment{
   margin-left: 30%;
+}
+.table2{
+  margin-top: 30px;
+}
+#resultsDisplay{
+  background-color: #FFFFFF;
+  height: 85px;
+}
+#equals{
+  background-color: #ADD8E6;
+}
+#equals:hover{
+  background-color: #0000FF;
+}
+input{
+  background-color: transparent;
+}
+td:hover{
+  background-color: #0000FF;
 }
 
