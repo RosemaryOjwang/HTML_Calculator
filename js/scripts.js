@@ -12,3 +12,23 @@ function getUserInput() {
   }
   return inputValue;
 }
+//switch statement to perform mathematical operation based on operator clicked
+let mathematicalOperator;
+let output;
+switch (mathematicalOperator) {
+  case "+":
+    output = inputValue1 + inputValue2;
+    break;
+case "-":
+  output = inputValue1 - inputValue2;
+  break;
+case "*":
+  output = inputValue1 * inputValue2;
+  break;
+case "/":
+  output = inputValue1 / inputValue2;
+  break;
+default:
+  alert("You chose an invalid operator");
+}
+ 
