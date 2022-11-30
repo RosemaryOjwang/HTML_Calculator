@@ -4,16 +4,15 @@ table{
   border-radius: 15px;
   border: 3px solid #FF7F50;
 }
-.hidden{
+/*.hidden{
   display: none;
-}
+}*/
 td, th{
   border-radius: 15px;
   text-align: center;
   width: 25px;
   background-color: #016064;
-  color: #FF7F50; 
-}
+  }
 #operation{
   color: #FF0000;
   font-weight: 700;
@@ -32,12 +31,15 @@ td, th{
   background-color: #ADD8E6;
 }
 #equals:hover{
-  background-color: #0000FF;
+  background-color: #016064;
 }
 input{
   background-color: transparent;
+  border: none;
+  color: #FF7F50;
+  font-size: 1.7em;
 }
 td:hover{
-  background-color: #0000FF;
+  background-color: #ADD8E6;
 }
 
