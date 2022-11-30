@@ -2,13 +2,13 @@
 <html lang="en-US">
 
 <head>
-  <title>Multiplication Calculator</title>
+  <title>Calculator</title>
   <link href="css/styles.css" type="text/css" rel="stylesheet">
   <script src="js/scripts.js"></script>
 </head>
 
 <body>
-  <div class="alignment">
+  <!--<div class="alignment">
     <h1>Multiplication Table</h1>
     <div class="table1">
       <table border="1">
@@ -295,7 +295,7 @@
           </td>
         </tr>
       </table>
-    </div>
+    </div>-->
     <div>
       <table class="table2" border=2>
         <tr>
@@ -303,28 +303,28 @@
         </tr>
         <form>
         <tr>
-          <td><input type="checkbox" value="7" name="userInput">7</td>
-          <td><input type="checkbox" value="8" name="userInput">8</td>
-          <td><input type="checkbox" value="9" name="userInput">9</td>
-          <td><input type="checkbox" value="*" name="operator">*</td>
+          <td><input type="button" id="seven" value="7" name="userInput"></td>
+          <td><input type="button" id="eight" value="8" name="userInput"></td>
+          <td><input type="button" id="nine" value="9" name="userInput"></td>
+          <td><input type="button" id="multiplication" value="*" name="operator"></td>
         </tr>
         <tr>
-          <td><input type="checkbox" value="4" name="userInput">4</td>
-          <td><input type="checkbox" value="5" name="userInput">5</td>
-          <td><input type="checkbox" value="6" name="userInput">6</td>
-          <td><input type="checkbox" value="-" name="operator">-</td>
+          <td><input type="button" id="four" value="4" name="userInput"></td>
+          <td><input type="button" id="five" value="5" name="userInput"></td>
+          <td><input type="button" id="six" value="6" name="userInput"></td>
+          <td><input type="button" id="minus" value="-" name="operator"></td>
         </tr>
         <tr>
-          <td><input type="checkbox" value="1" name="userInput">1</td>
-          <td><input type="checkbox" value="2" name="userInput">2</td>
-          <td><input type="checkbox" value="3" name="userInput">3</td>
-          <td><input type="checkbox" value="+" name="operator">+</td>
+          <td><input type="button" id="one" value="1" name="userInput"></td>
+          <td><input type="button" id="two" value="2" name="userInput"></td>
+          <td><input type="button" id="three" value="3" name="userInput"></td>
+          <td><input type="button" id="plus" value="+" name="operator"></td>
         </tr>
         <tr>
-          <td><input type="reset" value="CE"></td>
-          <td><input type="checkbox" value="0" name="userInput">0</td>
-          <td><input type="checkbox" value="/" name="operator">/</td>
-          <td id="equals"><input type="submit" value="=" name="getResult"></td>
+          <td><input type="button"id="clear" value="CE"></td>
+          <td><input type="button" id="zero" value="0" name="userInput"></td>
+          <td><input type="button" id="division" value="/"name="operator"></td>
+          <td id="equals"><input type="button"  value="=" name="getResult"></td>
         </tr>
       </form>
       </table>
