@@ -85,7 +85,7 @@ window.onload = function () {
         }
         let expressionCheck = /\d+(\*|\-|\+|\/)\d+/;
         if (expressionCheck.test(document.getElementById("resultsDisplay").innerText)) {
-            document.getElementById("resultsDisplay").innerText += " = " + (eval(document.getElementById("resultsDisplay").innerText));
+            document.getElementById("resultsDisplay").innerText += " = " + (eval(document.getElementById("resultsDisplay").innerText)).toFixed(2);
             document.getElementById("resultsDisplay").style.color = "#016064";
             document.getElementById("resultsDisplay").style.fontWeight = "900";
         }
