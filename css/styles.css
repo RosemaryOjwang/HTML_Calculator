@@ -1,12 +1,22 @@
 table{
+  float: left;
+  margin-top: 4%;
+  margin-left: 4%;
   width: 500px;
   height: 500px;
   border-radius: 15px;
-  border: 3px solid #FF7F50;
+  border: 5px solid #FF7F50;
 }
-/*.hidden{
-  display: none;
-}*/
+body{
+  background-color: #ADD8E6;
+}
+.heading{
+  float: left;
+  margin-left: 12%;
+  margin-top: 20%;
+  color: #016064;
+  font-size: 1.5em;
+}
 td, th{
   border-radius: 15px;
   text-align: center;
@@ -20,11 +30,9 @@ td, th{
 .alignment{
   margin-left: 30%;
 }
-.table2{
-  margin-top: 30px;
-}
+
 #resultsDisplay{
-  background-color: #FFFFFF;
+  background-color: #ADD8E6;
   height: 85px;
 }
 #equals{
