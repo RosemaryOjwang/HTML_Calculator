@@ -22,4 +22,4 @@ _The application allow users to perform addition, multiplication, subtraction an
 
 [MIT](https://opensource.org/licenses/MIT)
 
-_Copyright (c) 2022. _ _**By Rosemary Ojwang**_
+_Copyright (c) 2022._  _**By Rosemary Ojwang**_
