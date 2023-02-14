@@ -1,4 +1,7 @@
 # Simple Calculator
+![image](images/calculator.png)
+
+i
 
 **_By Rosemary Ojwang_**
 
