@@ -1,8 +1,6 @@
 # Simple Calculator
 ![image](images/calculator.png)
 
-i
-
 **_By Rosemary Ojwang_**
 
 _An Application that performs simple arithmetic calculations_
